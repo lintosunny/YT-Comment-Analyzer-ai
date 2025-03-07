@@ -10,7 +10,7 @@ This project provides a **Chrome extension** and an **ML-powered backend** to an
 - **DVC for Data Management**: Ensures dataset versioning and reproducibility.
 
 ## HLD
-![HLD](docs\yt-hld.png)
+![HLD](docs/yt-hld.png)
 
 ## Repository Structure
 ```
