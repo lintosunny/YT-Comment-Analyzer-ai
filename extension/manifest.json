@@ -1,10 +1,19 @@
 {
-    "name": "Hello Extensions v2",
-    "description": "Base Level Extension",
-    "version": "3.0",
-    "manifest_version": 3,
-    "action": {
-      "default_popup": "popup/popup.html",
-      "default_icon": "images/Hi.png"
-    }
+  "name": "Hello Extensions v2",
+  "description": "Base Level Extension with Side Panel",
+  "version": "6.0",
+  "manifest_version": 3,
+  "permissions": [
+      "sidePanel"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "side_panel": {
+      "default_path": "popup/popup.html"
+  },
+  "action": {
+      "default_icon": "images/Hi.png",
+      "default_title": "Click Me"
   }
+}
